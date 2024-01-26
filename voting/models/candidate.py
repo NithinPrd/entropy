@@ -1,7 +1,7 @@
 from django.db import models
 from django.core.validators import RegexValidator
 
-from votingsystem.models.state import State
+from voting.models.state import State
 
 class Candidate(models.Model):
     id = models.AutoField(primary_key=True)
