@@ -7,3 +7,6 @@ class State(models.Model):
     code = models.CharField(max_length=5)
     region = models.CharField(max_length=10)
     current_party = models.CharField(max_length=20)
+
+    def __str__(self) -> str:
+        return self.name

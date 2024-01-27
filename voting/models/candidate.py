@@ -11,3 +11,6 @@ class Candidate(models.Model):
     phone_regex = RegexValidator(regex=r'^\+?1?\d{9,15}$', message="Phone number must be entered in the format: '+999999999'. Up to 11 digits allowed.")
     phone = models.CharField(validators=[phone_regex], max_length=13, blank=True)
     state = models.ForeignKey(State, on_delete=models.SET_NULL, null=True)
+
+    def __str__(self) -> str:
+        return self.first_name + " " + self.last_name + f"({self.state})"
