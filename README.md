@@ -1,6 +1,6 @@
-# Voting System
+# Entropy
 ## Purpose
-The aim of this project is to implement a secure voting system using blockchain. I'm working on this primarily to understand blockchain as a concept.
+The aim of this project is to implement a secure blockain system that can then be used to build applications on top. I'm working on this primarily to understand blockchain as a concept.
 
 Backend is my current focus for the project. I aim to have a tight backend logic in place before I start working on any UI/website.
 
@@ -19,7 +19,3 @@ Minor objective: Learn deployment process and a bit of terraform
 ## Tech Used
 - Middleware - Django
 - Database - Postgres
-
-
-
-Note: This is a placeholder README for my purpose. Will set up proper documentation once I have something concrete built.
